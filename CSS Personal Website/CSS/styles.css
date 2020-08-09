@@ -1,0 +1,16 @@
+div {
+  background-color: #f9f7f7;
+}
+
+body {
+  text-align: center;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 600px;
+}
+
+.bottom-cloud {
+  position: absolute;
+}
