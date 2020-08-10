@@ -2,27 +2,42 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
-h1 {
-  font-size: 3.5rem;
+h1,
+h2 h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* HEADINGS */
+
+.big-header {
+  font-size: 3rem;
   font-weight: 900;
   line-height: 1.5;
 }
 
-h2 {
-  font-family: "Montserrat", sans-serif;
+.section-heading {
   font-size: 3rem;
   font-weight: bold;
   line-height: 1.5;
 }
 
-h3 {
-  font-family: "Montserrat", sans-serif;
+.feature-header {
   font-size: 1.5rem;
   font-weight: bold;
+  line-height: 1.5;
 }
 
-p {
-  color: #8f8f8f;
+.card-header {
+  font-size: 1.5rem;
+  font-weight: bold;
+  line-height: 1.5;
 }
 
 .col-md-4 {
@@ -30,7 +45,7 @@ p {
 }
 
 .container-fluid {
-  padding: 3% 15%;
+  padding: 3% 15% 7%;
 }
 
 .download-btn {
@@ -67,6 +82,12 @@ p {
   font-weight: lighter;
 }
 
+.pricing-text {
+  font-size: 3rem;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
 .row {
   padding-bottom: 50px;
 }
@@ -74,10 +95,15 @@ p {
 .title-img {
   width: 60%;
   transform: rotate(25deg);
+  position: absolute;
+  margin-right: 10%;
 }
 
 #features {
+  background-color: #fff;
   padding: 7% 15%;
+  position: relative;
+  z-index: 1;
 }
 
 #title {
@@ -102,6 +128,12 @@ p {
   width: 10%;
 }
 
+.testimonial-text {
+  font-size: 3rem;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
 /* PRESS SECTION */
 .press-img {
   width: 15%;
@@ -122,4 +154,34 @@ p {
 
 .pricing-col {
   padding: 3% 2%;
+}
+
+/* CALL TO ACTION */
+#cta {
+  background-color: #ff4c68;
+  text-align: center;
+  padding: 7% 15%;
+}
+
+/* FOOTER */
+#footer {
+  background-color: #fff;
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.footer-fa {
+  margin: 20px 10px;
+}
+
+/* MEDIA QUERY BREAKPOINT */
+@media (max-width: 1028) {
+  .title-img {
+    transform: rotate(0);
+    position: static;
+  }
+}
+
+#title {
+  text-align: center;
 }
