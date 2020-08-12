@@ -21,8 +21,14 @@ h1 {
   color: #303841;
 }
 
-p {
+h2 {
   font-size: 2rem;
+  color: #3a4750;
+  font-family: "Montserrat", sans-serif;
+}
+
+p {
+  font-size: 1rem;
   color: #3a4750;
   font-family: "Montserrat", sans-serif;
 }
@@ -36,4 +42,13 @@ footer {
   color: #3a4750;
   text-align: center;
   font-family: "Montserrat", sans-serif;
+}
+
+table {
+  margin: 7% auto;
+}
+
+td {
+  padding-right: 20px;
+  vertical-align: top;
 }
