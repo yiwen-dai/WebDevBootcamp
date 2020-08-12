@@ -17,3 +17,29 @@ if (randomNumber1 > randomNumber2) {
 } else {
   document.querySelector("h1").innerHTML = "Draw!";
 }
+
+// ***************************************************************
+// BETTING SECTION
+var won = true;
+var wager = document.querySelector(".wager-input");
+var balance = document.querySelector(".balance");
+
+if (randomNumber1 > randomNumber2) {
+  if (document.querySelector(".radio1").checked) {
+    won = true;
+    balance += wager;
+  } else {
+    won = false;
+    balance -= wager;
+  }
+} else if (randomNumber2 > randomNumber1) {
+  if (document.querySelector(".radio2").checked) {
+    won = true;
+    balance += wager;
+  } else {
+    won = false;
+    balance -= wager;
+  }
+}
+
+document.querySelector(".balance").value = balance;
