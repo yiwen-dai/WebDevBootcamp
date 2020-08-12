@@ -7,7 +7,8 @@ h1 {
   font-size: 5rem;
   color: #ffffff;
   font-family: "Righteous", cursive;
-  text-shadow: 3px 0 #ee1d52;
+  text-shadow: -2px -2px 0 #69c9d0, 2px -2px 0 #ee1d52, -2px 2px 0 #ee1d52,
+    2px 2px 0 #ee1d52;
 }
 
 h3 {
