@@ -1,0 +1,23 @@
+{
+  "name": "express-server",
+  "version": "1.0.0",
+  "description": "Building an express server for web dev bootcamp",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yiwen-dai/WebDevBootcamp.git"
+  },
+  "author": "Yiwen Dai",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yiwen-dai/WebDevBootcamp/issues"
+  },
+  "homepage": "https://github.com/yiwen-dai/WebDevBootcamp#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

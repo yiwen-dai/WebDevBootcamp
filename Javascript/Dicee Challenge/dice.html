@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Dice</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Refresh Me</h1>
+
+      <div class="dice">
+        <h2>Player 1</h2>
+        <img class="img1" src="images/dice6.png" />
+      </div>
+
+      <div class="dice">
+        <h2>Player 2</h2>
+        <img class="img2" src="images/dice6.png" />
+      </div>
+    </div>
+
+    <div class="bet">
+      <table>
+        <tr>
+          <td>
+            <div class="bet-section">
+              <p class="bet-input">Who do you think will win?</p>
+              <p>
+                Player 1
+                <input type="radio" name="Player" id="" class="radio1" />
+              </p>
+
+              <p>
+                Player 2
+                <input type="radio" name="Player" id="" class="radio2" />
+              </p>
+            </div>
+          </td>
+
+          <td>
+            <p class="wager-input">How much would you like to bet?</p>
+            <p>
+              Wager amount: <input type="number" name="Wager Amount" id="" />
+            </p>
+            <p>Your balance: <span class="balance">1000</span></p>
+          </td>
+        </tr>
+      </table>
+    </div>
+  </body>
+
+  <script src="index.js"></script>
+
+  <footer>
+    Yiwen Dai
+  </footer>
+</html>
