@@ -24,14 +24,14 @@
     />
 
     <!-- Custom styles for this template -->
-    <link href="../css/signup.css" rel="stylesheet" />
+    <link href="css/signup.css" rel="stylesheet" />
   </head>
 
   <body class="text-center">
-    <form class="form-signin">
+    <form action="/" class="form-signin" method="post">
       <img
         class="mb-4"
-        src="../images/logo.png"
+        src="images/logo.png"
         alt="Generic Logo"
         width="72"
         height="72"
@@ -40,27 +40,30 @@
 
       <input
         type="text"
-        class="form-control"
+        class="form-control top"
         placeholder="First Name"
+        name="firstName"
         required
         autofocus
       />
       <input
         type="text"
-        class="form-control"
+        class="form-control middle"
         placeholder="Last Name"
+        name="lastName"
         required
       />
       <input
         type="email"
-        class="form-control"
+        class="form-control bottom"
         placeholder="Email address"
+        name="emailAddress"
         required
       />
       <button class="btn btn-lg btn-primary btn-block" type="submit">
         Sign Me Up!
       </button>
-      <p class="mt-5 mb-3 text-muted">&copy; Company Name</p>
+      <p class="mt-5 mb-3 text-muted">Company Name</p>
     </form>
   </body>
 </html>
