@@ -18,9 +18,15 @@
       <p class="lead">
         There was an error during the sign-up process. Please try again later.
       </p>
-      <p class="lead">
+      <!-- <p class="lead">
         <a class="btn btn-warning btn-lg" href="/" role="button">Try Again</a>
-      </p>
+      </p> -->
+
+      <form action="/fail" method="POST">
+        <button class="btn btn-warning btn-lg" type="submit" name="tryagain">
+          Try Again
+        </button>
+      </form>
     </div>
   </body>
 </html>
