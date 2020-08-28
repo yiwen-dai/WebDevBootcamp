@@ -1,6 +1,4 @@
-module.exports.getDate = getDate;
-
-function getDate() {
+exports.getDate = function () {
   let today = new Date(); // new date object (node.js)
   let currentDay = today.getDay();
 
@@ -10,14 +8,10 @@ function getDate() {
     month: "short",
   };
 
-  let day = today.toLocaleDateString("en-US", options);
+  return today.toLocaleDateString("en-US", options);
+};
 
-  return day;
-}
-
-module.exports.getDay = getDay;
-
-function getDate() {
+exports.getDay = function () {
   let today = new Date(); // new date object (node.js)
   let currentDay = today.getDay();
 
@@ -25,7 +19,5 @@ function getDate() {
     weekday: "long",
   };
 
-  let day = today.toLocaleDateString("en-US", options);
-
-  return day;
-}
+  return today.toLocaleDateString("en-US", options);
+};
