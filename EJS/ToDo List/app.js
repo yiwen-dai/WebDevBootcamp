@@ -12,7 +12,7 @@ app.use(express.static("public"));
 var items = [];
 
 app.get("/", function (req, res) {
-  var day = date();
+  var day = date.getDate();
 
   res.render("list", { day: day, items: items });
 });
